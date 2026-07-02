@@ -24,7 +24,7 @@ class Main extends StatelessWidget {
             children: [
               DrawerHeader(
                 decoration: BoxDecoration(
-                  color: Colors.blue,
+                  color: Colors.grey,
                 ),
                 child: Text(
                   "FIFA WORLD CUP 2026",
@@ -72,7 +72,9 @@ class Main extends StatelessWidget {
         ),
 
         body: Body(),
+
         floatingActionButton: FloatingActionButton(onPressed: (){}, child: Icon(Icons.add)),
+
         bottomNavigationBar: BottomNavigationBar(
             items: [
               BottomNavigationBarItem(icon: Icon(Icons.home),label: "Home"),
